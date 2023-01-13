@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: #562EFF;
+}
+body{
+    background-color: #f3f1ff;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    width: 100%;
+    height: 94px;
+    background-color: #562EFF;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.logo-section{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.logo-section img{
+    width: 40px;
+    height: 51px;
+}
+.menu-section{
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+.menu-section ul{
+    display: flex;
+    gap: 36px;
+}
+.menu-section ul li{
+    list-style-type: none;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 870px;
+    height: 679px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    padding: 30px;
+    margin-top: 36px;
+}
+.container-title{
+    font-size: 24px;
+    color: var(--primary-color);
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 29px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.player{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.player img{
+    height: 56px;
+}
+hr{
+    margin-bottom: 30px;
+}
+.blog-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+    margin-top: 31px;
+}
+article{
+    display: flex;
+    gap: 16px;
+}
+.article-img img{
+    width: 177px;
+    height: 117px;
+}
+.latest-courses{
+    width: 870px;
+    height: 362px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    padding: 30px;
+    margin-top: 21px;
+    margin-bottom: 28px;
+}
+.courses{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+.course{
+    width: 30%;
+}
+.course img{
+    width: 224px;
+    height: 104px;
+}
+.trainer{
+    font-size: 14px;
+    color: #ED6B4F;
+}
+.filled{
+    width: 12px;
+    color: #FFC014;
+
+}
+.unfilled{
+    color: #AEAEAE;
+}
+.rating{
+    margin-left: 10px;
+    font-size: 14px;
+    color: #A2A2A2;
+}
+.duration{
+    margin-left: 10px;
+    background-color: #FFE4E8;
+    border-radius: 14px;
+    font-size: 14px;
+    color: #FF4A60;
+    padding: 5px;
+}
+.duration i {
+    width: 20px;
+}
+.orange{
+    color: #ED6B4F;
+}
